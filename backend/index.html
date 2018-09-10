@@ -78,7 +78,28 @@
                 <div class="card">
                     <div class="card-content">
                         <span class="card-title">受付 19:00 ~ 19:40</span>
-                        受付はConnpass の受講票にて行います。受講票の画面または印刷した紙のご準備をお願いします。
+                        <p>受付はConnpass の受講票にて行います。受講票の画面または印刷した紙のご準備をお願いします。</p>
+                        <p>セッション開始後は、受付が各セッションルームの前に移動します。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title">パーティー 19:15 ~ 19:40</span>
+                        みんなで集まってパーティーを行います。各セッションルームの説明もあるので、どのセッションルームに行くか悩んでいる人は、パーティー中に各Room Ownerに聞いてみるとよいでしょう。
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title">オープニング & 各セッションルームへ移動 19:40 ~ 20:00</span>
+                        セッションの概要とセッションルームの案内を行い、各セッションルームにそれぞれ移動します。
                     </div>
                 </div>
             </div>
@@ -116,7 +137,13 @@
                         <p>Guest : Ines Envid</p>
                         <br>
                         <p>
-                            Coming Soon
+                            GKEのProduct ManagerであるYoshi Tamura, Google Cloud NetworkingのProduct ManagerのInes Envid, そして、Cloud Native AdvocateであるDawn Chenを迎えてのFireside Chatです。
+                            今年のGoogle Cloud Next SFではMicroserviceと <a href="https://istio.io/" target="_blank">Istio</a>が大きなトピックとして取り上げられ、Managed Istioが開発中であることも発表されました。
+                            Stackdriver MonitoringにもKubernetes専用のDashboardが追加され、Istioとの連携も発表されました。
+                            更にオンプレミス上のKubernetesを管理連携するGKE On-Prem, Kubernetes上でサーバレスを実現するOSSである <a href="https://cloud.google.com/knative/" target="_blank">Knative</a> も発表され、最もたくさんのUPDATEがあったプロダクトがGKEです。
+                            しかし、まだ発表されただけで我々には利用できないものも多く、Microserviceを実現するためのコンポーネントは数多くあるため、今、アプリケーションを作ろうとしている方は、どのようなアーキテクチャにするか、悩んでいる方も多いと思います。
+                            IstioとGoogle Load Balancerとの連携は？Identity Aware Proxyとの使い分けは？Cloud Functionと一緒に使うには？Monitoringはどうする？と、まだまだ考えることは山積みです。
+                            Cloud Nativeなアーキテクチャの未来が模索されている今、現状はどこにいるのか？来年は何が起こるのか？について、みんなで語り合いましょう。
                         </p>
                     </div>
               </div>
@@ -126,13 +153,18 @@
             <div class="col s12">
                 <div class="card">
                     <div class="card-content">
-                        <span class="card-title">Serverless (Cloud Functions) Room 20:00 ~ 21:30</span>
+                        <span class="card-title">Serverless (Cloud Functions), Firebase Room 20:00 ~ 21:30</span>
                         <p>Room Owner : @k2wanko, @soundtricker</p>
+                        <p>Guest : Mike McDonald</p>
                         <p>Guest : Bret McGowen</p>
                         <p>Guest : Brian Dorsey</p>
                         <br>
                         <p>
-                            Coming Soon
+                            FirebaseのProduct ManagerであるMike McDonald, Serverlessを担当するDeveloper AdvocateのBret McGowen, GCP全般に深い知識を持つDeveloper AdvocateのBrian Dorseyを迎えてのFireside Chatです。
+                            Cloud Functionに新しくPythonとGoのRuntimeが追加されることが発表され、更にRuntimeに縛れることのない自由なContainer ImageをDeployすることができるようになることも発表されました。
+                            Cloud Functionは、Firebaseのイベントトリガーの機能の多く持ち、フルマネージドサービスであるため、インフラを管理する必要がなく、Android, iOS, Webのエンジニアにも便利なプロダクトです。
+                            Kubernetesを利用して、リッチなインフラを構築する一方、シンプルなバックエンドアプリケーションは、Google App Engine, Firebase, Cloud Functionsなどで完結させたいというニーズも大きいです。
+                            最もシンプルに運用をせずにアプリケーションを動かすにはどのようなアーキテクチャを取るべきか？Serverlessの世界を見てみましょう。
                         </p>
                     </div>
                 </div>
@@ -142,28 +174,21 @@
             <div class="col s12">
                 <div class="card">
                     <div class="card-content">
-                        <span class="card-title">BigQuery Room 20:00 ~ 21:30</span>
-                        <p>Room Owner : @satoru_nakamura</p>
+                        <span class="card-title">BigQuery / Dataflow Room 20:00 ~ 21:30</span>
+                        <p>Room Owner : @satoru_nakamura, @orfeon</p>
                         <p>Guest : Jordan Tigani</p>
                         <p>Guest : Felipe Hoffa</p>
-                        <br>
-                        <p>
-                            Coming Soon
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col s12">
-                <div class="card">
-                    <div class="card-content">
-                        <span class="card-title">Dataflow Room 20:00 ~ 21:30</span>
-                        <p>Room Owner : @orfeon</p>
                         <p>Guest : Sergei Sokolenko</p>
                         <br>
                         <p>
-                            Coming Soon
+                            BigQueryを作ったエンジニアのひとりであるJordan Tigani, BigQueryのDeveloper AdvocateのFelipe Hoffa, そしてDataflowのPMであるSergei Sokolenkoを迎えてのBigDataに関するFireside Chatです。
+                            BQMLが発表され、BigQueryの中で機械学習を行うことができるようになり、BigQuery GISにより位置情報も扱うことができるようになりました。
+                            ただでさえ全人類向けのBigQueryに機能が追加され、より利用用途が広がっていっています。
+                            DataflowにはDataflow Shuffle Serviceが追加され、ShuffleのPerformanceが向上しました。
+                            ShuffleはBigQueryにも重要な要素で、JOIN, GROUP BYなどで利用されます。
+                            BigQueryとDataflowのShuffleはどのような思想で作られているのか？
+                            BQMLを行うための前処理をDataflowで行うアーキテクチャは？
+                            小さいものから大きいものまで、データを扱う人には興味深い話が行われることでしょう。
                         </p>
                     </div>
                 </div>
@@ -179,7 +204,11 @@
                         <p>Guest : Sudheera Vanguri</p>
                         <br>
                         <p>
-                            Coming Soon
+                            機械学習のDeveloper AdvocateであるMartin Gornerと、Cloud Auto MLのProduct ManagerであるSudheera Vanguriを迎えてのFireside Chatです。
+                            数年前に閃光の用にCloudの世界の話題を席巻した機械学習ですが、勢いは衰えることなく、一般的なものとなりました。
+                            しかし、それでもまだ、誰もが使えるほど簡単なものではありません。
+                            データを民主化し、機械学習を活用するにはどのようにアプローチするのがよいのか？
+                            Auto MLの勘所や、深層強化学習を始める時の心構えなど、機械学習エンジニアもデータの活用に悩んでいるエンジニアも、きっと学びがある時間になるでしょう。
                         </p>
                     </div>
                 </div>
