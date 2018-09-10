@@ -18,6 +18,9 @@ handlers:
 - url: /
   static_files: index.html
   upload: index.html
+- url: /en
+  static_files: index-en.html
+  upload: index-en.html
 - url: /css
   static_dir: css
 - url: /js
