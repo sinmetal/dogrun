@@ -18,6 +18,9 @@ handlers:
 - url: /
   static_files: index.html
   upload: index.html
+- url: /community
+  static_files: index-community.html
+  upload: index-community.html
 - url: /en
   static_files: index-en.html
   upload: index-en.html
